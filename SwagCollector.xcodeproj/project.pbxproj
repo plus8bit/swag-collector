@@ -12,6 +12,8 @@
 		0154F7CA225655EB00ECC3BC /* SwagCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0154F7C8225655EB00ECC3BC /* SwagCollector.xcdatamodeld */; };
 		0154F7CC225655EE00ECC3BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0154F7CB225655EE00ECC3BC /* Assets.xcassets */; };
 		0154F7CF225655EE00ECC3BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0154F7CD225655EE00ECC3BC /* LaunchScreen.storyboard */; };
+		0154F7D72256AD6700ECC3BC /* CollectableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0154F7D62256AD6700ECC3BC /* CollectableTableViewController.swift */; };
+		0154F7D92256ADC600ECC3BC /* CreateCollectableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0154F7D82256ADC600ECC3BC /* CreateCollectableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0154F7CB225655EE00ECC3BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0154F7CE225655EE00ECC3BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0154F7D0225655EE00ECC3BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0154F7D62256AD6700ECC3BC /* CollectableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectableTableViewController.swift; sourceTree = "<group>"; };
+		0154F7D82256ADC600ECC3BC /* CreateCollectableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCollectableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				0154F7C1225655EB00ECC3BC /* AppDelegate.swift */,
 				0154F7C5225655EB00ECC3BC /* Main.storyboard */,
+				0154F7D62256AD6700ECC3BC /* CollectableTableViewController.swift */,
+				0154F7D82256ADC600ECC3BC /* CreateCollectableViewController.swift */,
 				0154F7CB225655EE00ECC3BC /* Assets.xcassets */,
 				0154F7CD225655EE00ECC3BC /* LaunchScreen.storyboard */,
 				0154F7D0225655EE00ECC3BC /* Info.plist */,
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0154F7D72256AD6700ECC3BC /* CollectableTableViewController.swift in Sources */,
+				0154F7D92256ADC600ECC3BC /* CreateCollectableViewController.swift in Sources */,
 				0154F7CA225655EB00ECC3BC /* SwagCollector.xcdatamodeld in Sources */,
 				0154F7C2225655EB00ECC3BC /* AppDelegate.swift in Sources */,
 			);
